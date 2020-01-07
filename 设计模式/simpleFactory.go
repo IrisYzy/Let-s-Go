@@ -1,4 +1,4 @@
-package manager
+package main
 
 import (
 	//"code.qschou.com/openapi/go-core/library/log/zlog"
@@ -26,8 +26,10 @@ func NewOperateFactory() *OperateFactory {
 func (this *OperateFactory) CreateOperate(operatename string) Operater {
 	switch operatename {
 	case "wechat":
+		fmt.Println("wechat")
 		return &WechatRefund{}
 	case "ali":
+		fmt.Println("ali")
 		return &AliRefund{}
 	default:
 		panic("无效运算符号")
@@ -46,6 +48,6 @@ func (this *AliRefund) Operate(rhs int, lhs int) int {
 }
 
 func main() {
-	Operator := NewOperateFactory().CreateOperate("+")
+	Operator := NewOperateFactory().CreateOperate("wechat")
 	fmt.Printf("add result is %d\n", Operator.Operate(1, 2))
 }
