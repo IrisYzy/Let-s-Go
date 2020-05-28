@@ -17,6 +17,10 @@ func bar() int {
 	return y
 }
 
+func testGo()  {
+	
+}
+
 func main() {
 
 	println(foo(), bar())
