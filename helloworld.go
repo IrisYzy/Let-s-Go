@@ -8,7 +8,6 @@ import (
 )
 
 func main()  {
-	fmt.Println("Hello World!~")
 	//请求参数
 	requestParams := map[string]interface{}{
 		"event":  "123",
