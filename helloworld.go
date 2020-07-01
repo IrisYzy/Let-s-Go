@@ -17,7 +17,6 @@ func main()  {
 	//构建request实例，发送请求
 	jsonRequestParams, err := json.Marshal(requestParams)
 	if err != nil {
-		fmt.Println(err)
 		return
 	}
 	requestEntity, err := http.NewRequest("httpType", "http://baidu.com", bytes.NewBuffer(jsonRequestParams))
