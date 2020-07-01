@@ -8,7 +8,6 @@ import (
 )
 
 func main()  {
-	fmt.Println("Hello World!~")
 	//请求参数
 	requestParams := map[string]interface{}{
 		"event":  "123",
@@ -17,7 +16,6 @@ func main()  {
 	//构建request实例，发送请求
 	jsonRequestParams, err := json.Marshal(requestParams)
 	if err != nil {
-		fmt.Println(err)
 		return
 	}
 	requestEntity, err := http.NewRequest("httpType", "http://baidu.com", bytes.NewBuffer(jsonRequestParams))
