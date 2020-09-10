@@ -20,7 +20,7 @@ func bar() int {
 }
 
 func testGo()  {
-	fmt.Println("1111")
+	fmt.Println("22222")
 }
 
 func main() {
