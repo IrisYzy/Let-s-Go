@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func f(p *int) int {
 	*p = 123
 	return *p
@@ -18,7 +20,7 @@ func bar() int {
 }
 
 func testGo()  {
-	
+	fmt.Println("1111")
 }
 
 func main() {
