@@ -1,12 +1,13 @@
 package main
 
-import "fmt"
-
 func main() {
-	result1 := twoSumFun1([]int{1, 5, 3, 7}, 10)
-	fmt.Println("方法一：", result1)
-	result2 := twoSumFun2([]int{4, 5, 2, 6, 3, 7}, 12)
-	fmt.Println("方法二：", result2)
+	//result1 := twoSumFun1([]int{1, 5, 3, 7}, 10)
+	//fmt.Println("方法一：", result1)
+	//result2 := twoSumFun2([]int{4, 5, 2, 6, 3, 7}, 12)
+	//fmt.Println("方法二：", result2)
+
+
+
 
 }
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"code.qschou.com/openapi/refund_service/app/model/proxy"
-	"fmt"
+	//"code.qschou.com/openapi/refund_service/app/model/proxy"
+	//"fmt"
 )
 
 func main()  {
